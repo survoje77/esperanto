@@ -1,7 +1,0 @@
-\babel@toc {esperanto}{}
-\contentsline {chapter}{\chapternumberline {1}Origino kaj movado}{2}{}%
-\contentsline {chapter}{\chapternumberline {2}Senestrecaj principoj}{6}{}%
-\contentsline {section}{\numberline {2.1}Libereco}{6}{}%
-\contentsline {section}{\numberline {2.2}Solidareco}{9}{}%
-\contentsline {section}{\numberline {2.3}Egaleco}{12}{}%
-\contentsline {chapter}{Enhavo}{16}{}%
