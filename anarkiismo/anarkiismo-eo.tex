@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[esperanto]{babel}
 \usepackage{graphicx}
-%\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
 \usepackage{makeidx}
 \usepackage{fancyhdr}
 \usepackage{parallel}
@@ -16,7 +16,8 @@
 \vspace{5mm}
 }
 
-\newcommand{\texto}[2]{
+% Textes EO-FR en parallèle
+\newcommand{\eofr}[2]{
 \begin{Parallel}[v]{0.475\textwidth}{0.475\textwidth}
   \ParallelLText{#1}
   \ParallelRText{#2}
@@ -56,7 +57,7 @@
 \newpage
 \pagestyle{fancy}
 \chapterstyle{ell}
-\input{01-origino}
+\input{01-EO-FR-origino}
 \input{02-libereco}
 \input{03-solidareco}
 \input{04-egaleco}
