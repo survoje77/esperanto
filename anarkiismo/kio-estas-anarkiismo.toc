@@ -1,6 +1,0 @@
-\babel@toc {french}{}
-\contentsline {chapter}{\chapternumberline {1}Introduction}{2}{chapter.1}%
-\contentsline {section}{\numberline {1.1}Des idées fausses}{2}{section.1.1}%
-\contentsline {chapter}{\chapternumberline {2}Qu'attends-tu de la vie ?}{3}{chapter.2}%
-\contentsline {chapter}{Table des mati\`eres}{4}{section*.1}%
-\contentsline {chapter}{Enhavo}{5}{section*.2}%
