@@ -1,0 +1,15 @@
+\babel@toc {esperanto}{}
+\contentsline {chapter}{\chapternumberline {1}Origino kaj movado}{2}{chapter.1}%
+\contentsline {chapter}{\chapternumberline {2}Senestrecaj principoj}{6}{chapter.2}%
+\contentsline {section}{Libereco}{6}{section*.1}%
+\contentsline {section}{Solidareco}{9}{section*.2}%
+\contentsline {section}{Egaleco}{11}{section*.3}%
+\contentsline {section}{Justeco}{15}{section*.4}%
+\contentsline {section}{Libera iniciativo}{17}{section*.5}%
+\contentsline {section}{Libera kontrakto}{20}{section*.6}%
+\contentsline {section}{Federismo}{22}{section*.7}%
+\contentsline {section}{Senestreco}{25}{section*.8}%
+\contentsline {section}{Ateismo}{29}{section*.9}%
+\contentsline {section}{Internaciismo}{32}{section*.10}%
+\contentsline {chapter}{Indekso}{33}{section*.11}%
+\contentsline {chapter}{Enhavo}{34}{section*.12}%
