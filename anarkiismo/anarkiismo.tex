@@ -1,4 +1,4 @@
-\documentclass[11pt,a4paper,openany,twosideside]{memoir}
+\documentclass[11pt,a4paper,openany,twoside]{memoir}
 \usepackage{ucs}   
 \usepackage[utf8]{inputenc}
 \usepackage[esperanto]{babel}
@@ -7,9 +7,19 @@
 \usepackage{makeidx}
 \usepackage{fancyhdr}
 \usepackage{parallel}
-\usepackage[hyperindex=true,colorlinks=true,linkcolor=black]{hyperref}
+\usepackage[hyperindex=true,colorlinks=true]{hyperref}
 %\pagestyle{fancy}
 
+\newcount\hh
+\newcount\mm
+\mm=\time
+\hh=\time
+\divide\hh by 60
+\divide\mm by 60
+\multiply\mm by 60
+\mm=-\mm
+\advance\mm by \time
+\def\hhmm{\number\hh\ h \ifnum\mm<10{}0\fi\number\mm}
 \setsecheadstyle{\sffamily \Large}
 
 \newcommand{\para}[1]
@@ -46,7 +56,8 @@
 
 \vspace*{\stretch{2}}
 \begin{center}
-Éditions Mon \LaTeX
+Éditions Mon \LaTeX\\
+(\today{} -- \hhmm)
 \end{center}
 %\end{titlepage}
 }

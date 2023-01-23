@@ -11,5 +11,5 @@
 \contentsline {section}{Senestreco}{25}{section*.8}%
 \contentsline {section}{Ateismo}{29}{section*.9}%
 \contentsline {section}{Internaciismo}{32}{section*.10}%
-\contentsline {chapter}{Indekso}{33}{section*.11}%
-\contentsline {chapter}{Enhavo}{34}{section*.12}%
+\contentsline {chapter}{Indekso}{34}{section*.11}%
+\contentsline {chapter}{Enhavo}{35}{section*.12}%
