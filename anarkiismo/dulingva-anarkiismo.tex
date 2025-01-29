@@ -1,0 +1,97 @@
+\documentclass[12pt,openany,oneside]{memoir}
+\usepackage{ucs}   
+\usepackage[utf8]{inputenc}
+\usepackage[esperanto]{babel}
+%\usepackage{fouriernc} %police
+\usepackage{graphicx}
+\usepackage[left=2.5cm,right=2.5cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage{makeidx}
+\usepackage{fancyhdr}
+\usepackage{parallel}
+\usepackage[hyperindex=true,colorlinks=true]{hyperref}
+%\pagestyle{fancy}
+%\frenchbsetup{StandardLists=true} % à inclure si on utilise \usepackage[french]{babel}
+\usepackage{enumitem}
+\usepackage{endnotes}
+
+
+\newcount\hh
+\newcount\mm
+\mm=\time
+\hh=\time
+\divide\hh by 60
+\divide\mm by 60
+\multiply\mm by 60
+\mm=-\mm
+\advance\mm by \time
+%\def\hhmm{\number\hh\ h \ifnum\mm<10{}0\fi\number\mm}
+\setsecheadstyle{\sffamily \Large}
+
+\newcommand{\para}[1]
+{\noindent \par{#1}
+%\vspace{5mm}
+}
+
+\newcommand{\texto}[2]{
+\begin{Parallel}[v]{0.475\textwidth}{0.475\textwidth}
+  \ParallelLText{#1}
+  \ParallelRText{#2}
+\end{Parallel}
+\vspace{3mm}}
+
+%\usepackage{fontspec}
+%\setmainfont{DejaVu Serif}
+
+\newcommand{\qui}[1]
+{\textsc{#1}\index{#1}}
+
+\newcommand{\montitle}{
+%\begin{titlepage}
+%\fontfamily{phv}\selectfont
+\vspace*{\stretch{1}}
+\begin{flushright}\HUGE
+{\HUGE\bfseries  G. Balkanski}
+\end{flushright}
+\hrule
+\begin{flushright}
+{\Huge La bazoj de anarkiismo\\}
+\vspace{2cm}
+%\includegraphics[scale=0.6]{krishnamurti.jpg}
+\end{flushright}
+
+\vspace*{\stretch{2}}
+\begin{center}
+Éditions Mon \LaTeX\\
+(\today{})
+\end{center}
+%\end{titlepage}
+}
+
+\makeindex
+\begin{document}
+\sloppy
+\montitle
+\newpage
+\pagestyle{fancy}
+%\chapterstyle{ell}
+
+\input{EF-01-origino}
+\input{02-libereco}
+\input{03-solidareco}
+\input{04-egaleco}
+\input{05-justeco}
+\input{06-libera-iniciativo}
+\input{07-libera-kontrakto}
+\input{08-federismo}
+\input{09-senestreco}
+\input{10-ateismo}
+\input{11-internaciismo}
+(daùrigota)
+\newpage
+\theendnotes
+\newpage
+\printindex
+\newpage
+\tableofcontents
+
+\end{document}

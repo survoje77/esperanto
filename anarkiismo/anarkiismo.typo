@@ -1,0 +1,40 @@
+List of typographic flaws found for anarkiismo.tex:
+
+p. 3, line 23, LINE NEARLY FULL: missing 8.9pt
+p. 3, line 27, HYPHEN on next to last line
+p. 5, line  1, WIDOW
+p. 5, line 13, E.O.L. MATCH=kaj
+p. 5, line 31, HYPHEN on next to last line
+p. 9, line 31, E.O.L. MATCH=veraj
+p. 12, line 32, B.O.L. MATCH=de_so
+p. 12, line 33, LAST WORD SPLIT
+p. 13, line 12, HYPHEN on next to last line
+p. 13, line 24, B.O.L. MATCH=estas
+p. 14, line  5, B.O.L. MATCH=de_la
+p. 15, line 23, E.O.L. MATCH=kaj
+p. 16, line 19, B.O.L. MATCH=kiu
+p. 19, line 21, HYPHEN on next to last line
+p. 20, line  3, HYPHEN on next to last line
+p. 20, line 17, HYPHEN on next to last line
+p. 21, line 12, HYPHEN on next to last line
+p. 22, line 33, LAST WORD SPLIT
+p. 26, line  3, HYPHEN on next to last line
+p. 27, line 16, E.O.L. MATCH=pli
+p. 28, line  2, HYPHEN on next to last line
+p. 28, line  3, SHORT LINE: 31pt
+p. 28, line 11, HYPHEN on next to last line
+p. 28, line 33, LAST WORD SPLIT
+p. 34, line 12, HYPHEN on next to last line
+p. 35, line  8, HYPHEN on next to last line
+p. 35, line 28, HYPHEN on next to last line
+p. 36, line 29, HYPHEN on next to last line
+p. 37, line 14, E.O.L. MATCH=anarkiistoj
+p. 37, line 19, E.O.L. MATCH=de_la
+p. 38, line 32, E.O.L. MATCH=tato
+p. 39, line 33, LAST WORD SPLIT
+p. 41, line  5, B.O.L. MATCH=iuj
+p. 42, line 26, E.O.L. MATCH=kaj
+p. 44, line  8, E.O.L. MATCH=estas
+p. 44, line  9, E.O.L. MATCH=estas
+p. 45, line 30, LAST WORD SPLIT
+p. 47, line 11, HYPHEN on next to last line

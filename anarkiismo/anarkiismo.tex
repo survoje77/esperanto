@@ -1,14 +1,37 @@
-\documentclass[11pt,a4paper,openany,twoside]{memoir}
-\usepackage{ucs}   
-\usepackage[utf8]{inputenc}
+\documentclass[11pt,a5paper,openany,oneside]{memoir}
+%\usepackage{ucs}   
+%\usepackage[utf8]{inputenc}
 \usepackage[esperanto]{babel}
+%\usepackage{fouriernc} %police
 \usepackage{graphicx}
-%\usepackage[left=2cm,right=2cm,top=2.5cm,bottom=3cm]{geometry}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
 \usepackage{makeidx}
 \usepackage{fancyhdr}
 \usepackage{parallel}
-\usepackage[hyperindex=true,colorlinks=true]{hyperref}
-%\pagestyle{fancy}
+%\usepackage[hyperindex=true,colorlinks=true]{hyperref}
+\usepackage{enumitem}
+
+%\usepackage[All]{lua-typo}   % APRÈS babel / polyglossia
+
+% Mots courts (deux lettres max) à éviter en fin de ligne
+%\luatypoOneChar{french}{'À à Ô'}
+%\luatypoTwoChars{french}{"Je Tu Il On"}
+
+% Pour changer les couleurs :
+%\usepackage[svgnames]{xcolor}
+%\LuaTypoSetColor1{Fuchsia}
+%\LuaTypoSetColor2{ForestGreen}
+%\LuaTypoSetColor5{magenta}
+%\LuaTypoSetColor6{yellow}
+
+% Réglage ligne finale trop courte
+%\setlength{\luatypoLLminWD}{3em}
+
+%\luatypoPageMin=5
+%\luatypoHyphMax=2
+
+\parindent=1em
+
 
 \newcount\hh
 \newcount\mm
@@ -19,12 +42,24 @@
 \multiply\mm by 60
 \mm=-\mm
 \advance\mm by \time
-\def\hhmm{\number\hh\ h \ifnum\mm<10{}0\fi\number\mm}
-\setsecheadstyle{\sffamily \Large}
+%\def\hhmm{\number\hh\ h \ifnum\mm<10{}0\fi\number\mm}
+\setsecheadstyle{\sffamily \large}
+
+\makechapterstyle{ell}{%
+\renewcommand{\chapterheadstart}{}
+\renewcommand{\printchaptername}{}
+\renewcommand{\chapternamenum}{}
+\renewcommand{\printchapternum}{}
+\renewcommand{\afterchapternum}{}
+\renewcommand{\printchaptertitle}[1]{%
+\raggedleft\Large\bfseries{##1}}
+\renewcommand{\afterchaptertitle}{%
+\vskip\onelineskip \hrule\vskip\onelineskip}
+}
 
 \newcommand{\para}[1]
-{\par{#1}
-\vspace{5mm}
+{\noindent \par{#1}
+%\vspace{5mm}
 }
 
 \newcommand{\texto}[2]{
@@ -38,36 +73,37 @@
 %\setmainfont{DejaVu Serif}
 
 \newcommand{\qui}[1]
-{\textsc{#1}\index{#1}}
+{{#1}\index{#1}}
 
 \newcommand{\montitle}{
-%\begin{titlepage}
-%\fontfamily{phv}\selectfont
-\vspace*{\stretch{1}}
-\begin{flushright}\HUGE
-{\HUGE\bfseries  G. Balkanski}
+  \ 
+\vspace{8cm}
+\begin{flushright}
+\HUGE{\bfseries{G. Balkanski}}
 \end{flushright}
 \hrule
 \begin{flushright}
 {\Huge La bazoj de anarkiismo\\}
 \vspace{2cm}
-%\includegraphics[scale=0.6]{krishnamurti.jpg}
 \end{flushright}
 
 \vspace*{\stretch{2}}
 \begin{center}
 Éditions Mon \LaTeX\\
-(\today{} -- \hhmm)
+(\today{})
 \end{center}
 %\end{titlepage}
 }
 
 \makeindex
 \begin{document}
+\pagestyle{empty}
+%\sloppy
 \montitle
-\newpage
+\clearpage
 \pagestyle{fancy}
-\chapterstyle{ell}
+%\chapterstyle{ell}
+%\huge
 \input{01-origino}
 \input{02-libereco}
 \input{03-solidareco}
@@ -80,9 +116,9 @@
 \input{10-ateismo}
 \input{11-internaciismo}
 (daùrigota)
-\newpage
+\clearpage
 \printindex
-\newpage
+\clearpage
 \tableofcontents
 
 \end{document}
