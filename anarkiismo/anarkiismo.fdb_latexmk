@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex anarkiismo.idx"] 1738140109 "anarkiismo.idx" "anarkiismo.ind" "anarkiismo" 1738184948 0
-  "anarkiismo.idx" 1738184948 2564 b52904066d51217bf47730641e7426c5 "pdflatex"
+["makeindex anarkiismo.idx"] 1738140109 "anarkiismo.idx" "anarkiismo.ind" "anarkiismo" 1738658129 0
+  "anarkiismo.idx" 1738658128 2564 b52904066d51217bf47730641e7426c5 "pdflatex"
   (generated)
   "anarkiismo.ilg"
   "anarkiismo.ind"
   (rewritten before read)
-["pdflatex"] 1738184945 "/home/gerard/GIT-A-MOI/esperanto/anarkiismo/anarkiismo.tex" "anarkiismo.pdf" "anarkiismo" 1738184948 0
+["pdflatex"] 1738658126 "/home/gerard/GIT-A-MOI/esperanto/anarkiismo/anarkiismo.tex" "anarkiismo.pdf" "anarkiismo" 1738658129 0
   "/etc/texmf/web2c/texmf.cnf" 1709637909 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/home/gerard/GIT-A-MOI/esperanto/anarkiismo/anarkiismo.tex" 1738139676 2513 d27cb5c058d58e184f899d922fa06904 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
@@ -90,11 +90,11 @@
   "08-federismo.tex" 1688017990 10074 fe8687b00c5b79df3eb9983a177e0d78 ""
   "09-senestreco.tex" 1652160563 9559 727dce496abae5dd5bb92a1aa04f34da ""
   "10-ateismo.tex" 1674564075 10636 d99fc138b34ef6590e1a8260964d9d88 ""
-  "11-internaciismo.tex" 1738184944 4872 d4d6640a3ffb5338bd1f7da9fcce9f79 ""
-  "anarkiismo.aux" 1738184948 5651 577eeb0c12ee82d2872b18bba392684e "pdflatex"
+  "11-internaciismo.tex" 1738658126 5166 6c9b054bd9a9fbf4755347d7023a1dbc ""
+  "anarkiismo.aux" 1738658128 5651 577eeb0c12ee82d2872b18bba392684e "pdflatex"
   "anarkiismo.ind" 1738140109 1435 27fdf2da1ad3b694a0555d62a7090e38 "makeindex anarkiismo.idx"
   "anarkiismo.tex" 1738139676 2513 d27cb5c058d58e184f899d922fa06904 ""
-  "anarkiismo.toc" 1738184948 680 1e7475f0bd5577ac91acf593157ac766 "pdflatex"
+  "anarkiismo.toc" 1738658128 680 1e7475f0bd5577ac91acf593157ac766 "pdflatex"
   (generated)
   "anarkiismo.aux"
   "anarkiismo.idx"
