@@ -1,4 +1,4 @@
-\documentclass[11pt,a5paper,openany,oneside]{memoir}
+\documentclass[12pt,a5paper,openany,oneside]{memoir}
 %\usepackage{ucs}   
 %\usepackage[utf8]{inputenc}
 \usepackage[esperanto]{babel}
@@ -10,6 +10,7 @@
 \usepackage{parallel}
 %\usepackage[hyperindex=true,colorlinks=true]{hyperref}
 \usepackage{enumitem}
+\usepackage{lettrine}
 
 %\usepackage[All]{lua-typo}   % APRÈS babel / polyglossia
 
@@ -30,7 +31,7 @@
 %\luatypoPageMin=5
 %\luatypoHyphMax=2
 
-\parindent=1em
+\parindent=0em
 
 
 \newcount\hh
@@ -58,7 +59,8 @@
 }
 
 \newcommand{\para}[1]
-{\noindent \par{#1}
+{%\noindent \par
+#1
 %\vspace{5mm}
 }
 
@@ -77,19 +79,21 @@
 
 \newcommand{\montitle}{
   \ 
-\vspace{8cm}
+\vspace{2cm}
 \begin{flushright}
 \HUGE{\bfseries{G. Balkanski}}
 \end{flushright}
 \hrule
 \begin{flushright}
-{\Huge La bazoj de anarkiismo\\}
+{\Large La bazoj de anarkiismo\\
+\vspace{2mm}
+\huge{\emph{Origino}}}
 \vspace{2cm}
 \end{flushright}
 
 \vspace*{\stretch{2}}
 \begin{center}
-Éditions Mon \LaTeX\\
+Éditions FoGo Eldono\\
 (\today{})
 \end{center}
 %\end{titlepage}
@@ -104,21 +108,22 @@
 \pagestyle{fancy}
 %\chapterstyle{ell}
 %\huge
+%\Large
 \input{01-origino}
-\input{02-libereco}
-\input{03-solidareco}
-\input{04-egaleco}
-\input{05-justeco}
-\input{06-libera-iniciativo}
-\input{07-libera-kontrakto}
-\input{08-federismo}
-\input{09-senestreco}
-\input{10-ateismo}
-\input{11-internaciismo}
-(daùrigota)
-\clearpage
-\printindex
-\clearpage
-\tableofcontents
+%\input{02-libereco}
+%\input{03-solidareco}
+%\input{04-egaleco}
+%\input{05-justeco}
+%\input{06-libera-iniciativo}
+%\input{07-libera-kontrakto}
+%\input{08-federismo}
+%\input{09-senestreco}
+%\input{10-ateismo}
+%\input{11-internaciismo}
+%(daùrigota)
+%\clearpage
+%\printindex
+%\clearpage
+%\tableofcontents
 
 \end{document}

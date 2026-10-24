@@ -1,308 +1,403 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022/Debian) (preloaded format=pdflatex 2025.1.21)  4 FEB 2025 09:35
-entering extended mode
- restricted \write18 enabled.
- file:line:error style messages enabled.
- %&-line parsing enabled.
-**/home/gerard/GIT-A-MOI/esperanto/anarkiismo/anarkiismo.tex
-(/home/gerard/GIT-A-MOI/esperanto/anarkiismo/anarkiismo.tex
-LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16> (/usr/share/texlive/texmf-dist/tex/latex/memoir/memoir.cls
-Document Class: memoir 2022/11/17 v3.7.19 configurable book, report, article document class
+This is LuaHBTeX, Version 1.18.0 (TeX Live 2025/dev/Debian)  (format=lualatex 2026.5.9)  13 MAY 2026 17:18
+ restricted system commands enabled.
+**anarkiismo.tex --shell-escape
+(./anarkiismo.tex
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2025-01-18>
+Lua module: luaotfload 2024-12-03 v3.29 Lua based OpenType font support
+Lua module: lualibs 2023-07-13 v2.76 ConTeXt Lua standard libraries.
+Lua module: lualibs-extended 2023-07-13 v2.76 ConTeXt Lua libraries -- extended 
+collection.
+luaotfload | conf : Root cache directory is "/home/gerard/.texlive2025/texmf-var
+/luatex-cache/generic/names".
+luaotfload | init : Loading fontloader "fontloader-2023-12-28.lua" from kpse-res
+olved path "/usr/share/texlive/texmf-dist/tex/luatex/luaotfload/fontloader-2023-
+12-28.lua".
+Lua-only attribute luaotfload@noligature = 1
+luaotfload | init : Context OpenType loader version 3.134
+Inserting `luaotfload.node_processor' in `pre_linebreak_filter'.
+Inserting `luaotfload.node_processor' in `hpack_filter'.
+Inserting `luaotfload.glyph_stream' in `glyph_stream_provider'.
+Inserting `luaotfload.define_font' in `define_font'.
+Lua-only attribute luaotfload_color_attribute = 2
+luaotfload | conf : Root cache directory is "/home/gerard/.texlive2025/texmf-var
+/luatex-cache/generic/names".
+Inserting `luaotfload.harf.strip_prefix' in `find_opentype_file'.
+Inserting `luaotfload.harf.strip_prefix' in `find_truetype_file'.
+Removing  `luaotfload.glyph_stream' from `glyph_stream_provider'.
+Inserting `luaotfload.harf.glyphstream' in `glyph_stream_provider'.
+Inserting `luaotfload.harf.finalize_vlist' in `post_linebreak_filter'.
+Inserting `luaotfload.harf.finalize_hlist' in `hpack_filter'.
+Inserting `luaotfload.cleanup_files' in `wrapup_run'.
+Inserting `luaotfload.harf.finalize_unicode' in `finish_pdffile'.
+Inserting `luaotfload.glyphinfo' in `glyph_info'.
+Lua-only attribute luaotfload.letterspace_done = 3
+Inserting `luaotfload.aux.set_sscale_dimens' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_font_index' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.patch_cambria_domh' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.fixup_fontdata' in `luaotfload.patch_font_unsafe'.
+Inserting `luaotfload.aux.set_capheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.aux.set_xheight' in `luaotfload.patch_font'.
+Inserting `luaotfload.rewrite_fontname' in `luaotfload.patch_font'.
+Inserting `tracingstacklevels' in `input_level_string'. (/usr/share/texlive/tex
+mf-dist/tex/latex/memoir/memoir.cls
+Document Class: memoir 2025/03/06 v3.8.3 configurable book, report, article doc
+ument class
+(/usr/share/texlive/texmf-dist/tex/latex/xpatch/xpatch.sty
+(/usr/share/texlive/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2025-01-18 L3 programming layer (loader) 
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-luatex.def
+File: l3backend-luatex.def 2024-05-08 L3 backend support: PDF output (LuaTeX)
+\l__color_backend_stack_int=\count194
+Inserting `l3color' in `luaotfload.parse_color'.
+\l__pdf_internal_box=\box52
+))
+Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2024-08-16 L3 Experimental document command parser
+)
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
-Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count185
+Package: etoolbox 2025/02/11 v2.5l e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count195
+))
+\onelineskip=\skip49
+\lxvchars=\skip50
+\xlvchars=\skip51
+\@memcnta=\count196
+\c@@memmarkcntra=\count197
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2024/12/12 v1.0g TeX engine tests
 )
-\onelineskip=\skip48
-\lxvchars=\skip49
-\xlvchars=\skip50
-\@memcnta=\count186
-\c@@memmarkcntra=\count187
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/iftex.sty
-Package: iftex 2022/02/03 v1.0f TeX engine tests
+\trimtop=\skip52
+\trimedge=\skip53
+
+(/usr/share/texlive/texmf-dist/tex/latex/memoir/mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+luaotfload | db : Font names database loaded from /home/gerard/.texlive2025/texm
+f-var/luatex-cache/generic/names/luaotfload-names.luc.gz)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count198
+\memPD=\dimen140
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count199
+\c@part=\count266
+\c@chapter=\count267
+\c@section=\count268
+\c@subsection=\count269
+\c@subsubsection=\count270
+\c@paragraph=\count271
+\c@subparagraph=\count272
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count273
+\c@@ppsaveapp=\count274
+\ragrparindent=\dimen141
+\everylistparindent=\dimen142
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks17
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen143
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count275
+\c@poemline=\count276
+\c@modulo@vs=\count277
+\c@memfvsline=\count278
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen144
+\c@verse=\count279
+\c@chrsinstr=\count280
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count281
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
+Package: array 2024/10/17 v2.6g Tabular extension package (FMi)
+\col@sep=\dimen145
+\ar@mcellbox=\box53
+\extrarowheight=\dimen146
+\NC@list=\toks18
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box54
 )
-\stockheight=\dimen140
-\stockwidth=\dimen141
-\trimtop=\skip51
-\trimedge=\skip52
- (/usr/share/texlive/texmf-dist/tex/latex/memoir/mem11.clo
-File: mem11.clo 2022/07/29 v0.5 memoir class 11pt size option
+(/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
+Package: dcolumn 2023/07/08 v1.06 decimal alignment package (DPC)
 )
-\binding=\skip53
-\spinemargin=\skip54
-\foremargin=\skip55
-\uppermargin=\skip56
-\lowermargin=\skip57
-\headdrop=\skip58
-\normalrulethickness=\skip59
-\mem@maxheadheight=\skip60
-\mem@maxfootheight=\skip61
-\headwidth=\skip62
-\c@storedpagenumber=\count188
-\memPD=\dimen142
-\m@mabparskip=\skip63
-\thanksmarkwidth=\skip64
-\thanksmarksep=\skip65
-\droptitle=\skip66
-\c@book=\count189
-\c@part=\count190
-\c@chapter=\count191
-\c@section=\count192
-\c@subsection=\count193
-\c@subsubsection=\count194
-\c@paragraph=\count195
-\c@subparagraph=\count196
-\beforechapskip=\skip67
-\midchapskip=\skip68
-\afterchapskip=\skip69
-\chapindent=\skip70
-\bottomsectionskip=\skip71
-\secindent=\skip72
-\beforesecskip=\skip73
-\aftersecskip=\skip74
-\subsecindent=\skip75
-\beforesubsecskip=\skip76
-\aftersubsecskip=\skip77
-\subsubsecindent=\skip78
-\beforesubsubsecskip=\skip79
-\aftersubsubsecskip=\skip80
-\paraindent=\skip81
-\beforeparaskip=\skip82
-\afterparaskip=\skip83
-\subparaindent=\skip84
-\beforesubparaskip=\skip85
-\aftersubparaskip=\skip86
-\pfbreakskip=\skip87
-\c@@ppsavesec=\count197
-\c@@ppsaveapp=\count198
-\ragrparindent=\dimen143
-\everylistparindent=\dimen144
-\parsepi=\skip88
-\topsepi=\skip89
-\itemsepi=\skip90
-\parsepii=\skip91
-\topsepii=\skip92
-\topsepiii=\skip93
-\itemsepii=\skip94
-\itemsepiii=\skip95
-\partopsepii=\skip96
-\partopsepiii=\skip97
-\m@msavetopsep=\skip98
-\m@msavepartopsep=\skip99
-\@enLab=\toks16
-\abstitleskip=\skip100
-\absleftindent=\skip101
-\abs@leftindent=\dimen145
-\absrightindent=\skip102
-\absparindent=\skip103
-\absparsep=\skip104
-\c@vslineno=\count199
-\c@poemline=\count266
-\c@modulo@vs=\count267
-\c@memfvsline=\count268
-\vleftskip=\skip105
-\vrightskip=\skip106
-\stanzaskip=\skip107
-\versewidth=\skip108
-\vgap=\skip109
-\vindent=\skip110
-\vleftmargin=\dimen146
-\c@verse=\count269
-\c@chrsinstr=\count270
-\beforepoemtitleskip=\skip111
-\afterpoemtitleskip=\skip112
-\c@poem=\count271
-\beforePoemTitleskip=\skip113
-\midPoemTitleskip=\skip114
-\afterPoemTitleskip=\skip115
- (/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2022/09/04 v2.5g Tabular extension package (FMi)
-\col@sep=\dimen147
-\ar@mcellbox=\box51
-\extrarowheight=\dimen148
-\NC@list=\toks17
-\extratabsurround=\skip116
-\backup@length=\skip117
-\ar@cellbox=\box52
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/dcolumn.sty
-Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
+(/usr/share/texlive/texmf-dist/tex/latex/tools/delarray.sty
 Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
-Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
-\TX@col@width=\dimen149
-\TX@old@table=\dimen150
-\TX@old@col=\dimen151
-\TX@target=\dimen152
-\TX@delta=\dimen153
-\TX@cols=\count272
-\TX@ftn=\toks18
 )
-\heavyrulewidth=\dimen154
-\lightrulewidth=\dimen155
-\cmidrulewidth=\dimen156
-\belowrulesep=\dimen157
-\belowbottomsep=\dimen158
-\aboverulesep=\dimen159
-\abovetopsep=\dimen160
-\cmidrulesep=\dimen161
-\cmidrulekern=\dimen162
-\defaultaddspace=\dimen163
-\@cmidla=\count273
-\@cmidlb=\count274
-\@aboverulesep=\dimen164
-\@belowrulesep=\dimen165
-\@thisruleclass=\count275
-\@lastruleclass=\count276
-\@thisrulewidth=\dimen166
-\ctableftskip=\skip118
-\ctabrightskip=\skip119
-\abovecolumnspenalty=\count277
-\@linestogo=\count278
-\@cellstogo=\count279
-\@cellsincolumn=\count280
-\crtok=\toks19
-\@mincolumnwidth=\dimen167
-\c@newflo@tctr=\count281
-\mem@margin@floatbox=\box53
-\@contcwidth=\skip120
-\@contindw=\skip121
-\abovecaptionskip=\skip122
-\belowcaptionskip=\skip123
-\subfloattopskip=\skip124
-\subfloatcapskip=\skip125
-\subfloatcaptopadj=\skip126
-\subfloatbottomskip=\skip127
-\subfloatlabelskip=\skip128
-\subfloatcapmargin=\dimen168
-\c@@contsubnum=\count282
-\m@mscap@capbox=\box54
-\m@mscap@fbox=\box55
-\sidecapsep=\dimen169
-\sidecapwidth=\dimen170
-\m@m@tempdima=\dimen171
-\m@mscapraise=\dimen172
-\sidecapraise=\dimen173
-\m@mscapmainwidth=\dimen174
-\m@mscaplkern=\dimen175
-\beforeepigraphskip=\skip129
-\afterepigraphskip=\skip130
-\epigraphwidth=\skip131
-\epigraphrule=\skip132
-LaTeX Info: Redefining \em on input line 7655.
-LaTeX Info: Redefining \emph on input line 7663.
-\tocentryskip=\skip133
-\tocbaseline=\skip134
-\cftparskip=\skip135
-\cftbeforebookskip=\skip136
-\cftbookindent=\dimen176
-\cftbooknumwidth=\dimen177
-\cftbeforepartskip=\skip137
-\cftpartindent=\skip138
-\cftpartnumwidth=\skip139
-\cftbeforechapterskip=\skip140
-\cftchapterindent=\skip141
-\cftchapternumwidth=\skip142
-\cftbeforesectionskip=\skip143
-\cftsectionindent=\skip144
-\cftsectionnumwidth=\skip145
-\cftbeforesubsectionskip=\skip146
-\cftsubsectionindent=\skip147
-\cftsubsectionnumwidth=\skip148
-\cftbeforesubsubsectionskip=\skip149
-\cftsubsubsectionindent=\skip150
-\cftsubsubsectionnumwidth=\skip151
-\cftbeforeparagraphskip=\skip152
-\cftparagraphindent=\skip153
-\cftparagraphnumwidth=\skip154
-\cftbeforesubparagraphskip=\skip155
-\cftsubparagraphindent=\skip156
-\cftsubparagraphnumwidth=\skip157
-\prechapterprecisshift=\dimen178
-\c@maxsecnumdepth=\count283
-\bibindent=\dimen179
-\bibitemsep=\skip158
-\indexcolsep=\skip159
-\indexrule=\skip160
-\indexmarkstyle=\toks20
+(/usr/share/texlive/texmf-dist/tex/latex/tools/tabularx.sty
+Package: tabularx 2023/12/11 v2.12a `tabularx' package (DPC)
+\TX@col@width=\dimen147
+\TX@old@table=\dimen148
+\TX@old@col=\dimen149
+\TX@target=\dimen150
+\TX@delta=\dimen151
+\TX@cols=\count282
+\TX@ftn=\toks19
+)
+(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen152
+\lightrulewidth=\dimen153
+\cmidrulewidth=\dimen154
+\belowrulesep=\dimen155
+\belowbottomsep=\dimen156
+\aboverulesep=\dimen157
+\abovetopsep=\dimen158
+\cmidrulesep=\dimen159
+\cmidrulekern=\dimen160
+\defaultaddspace=\dimen161
+\@cmidla=\count283
+\@cmidlb=\count284
+\@aboverulesep=\dimen162
+\@belowrulesep=\dimen163
+\@thisruleclass=\count285
+\@lastruleclass=\count286
+\@thisrulewidth=\dimen164
+)
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count287
+\@linestogo=\count288
+\@cellstogo=\count289
+\@cellsincolumn=\count290
+\crtok=\toks20
+\@mincolumnwidth=\dimen165
+\c@newflo@tctr=\count291
+\mem@margin@floatbox=\box55
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen166
+\c@@contsubnum=\count292
+\m@mscap@capbox=\box56
+\m@mscap@fbox=\box57
+\sidecapsep=\dimen167
+\sidecapwidth=\dimen168
+\m@m@tempdima=\dimen169
+\m@mscapraise=\dimen170
+\sidecapraise=\dimen171
+\m@mscapmainwidth=\dimen172
+\m@mscaplkern=\dimen173
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7017.
+LaTeX Info: Redefining \emph on input line 7025.
+
+(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2023-11-26 v2.56 Cross-referencing by name of section
+
+(/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty
+Package: ltxcmds 2023-12-04 v1.26 LaTeX kernel commands for general use (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/infwarerr/infwarerr.sty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/kvoptions/kvoptions.sty
+Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
+\KV@toks@=\toks21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty
+Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
+)))
+\c@section@level=\count293
+)
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen174
+\cftbooknumwidth=\dimen175
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen176
+\c@maxsecnumdepth=\count294
+\bibindent=\dimen177
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks22
 \@indexbox=\insert252
-\glossarycolsep=\dimen180
-\glossaryrule=\dimen181
-\sideparvshift=\skip161
+LaTeX Info: Redefining \raggedbottom on input line 8107.
+LaTeX Info: Redefining \flushbottom on input line 8111.
+\glossarycolsep=\dimen178
+\glossaryrule=\dimen179
+\sideparvshift=\skip162
 \sideins=\insert251
-\sidebartopsep=\skip162
-\sidebarhsep=\skip163
-\sidebarvsep=\skip164
-\sidebarwidth=\skip165
-\footmarkwidth=\skip166
-\footmarksep=\skip167
-\footparindent=\skip168
-\footinsdim=\skip169
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
 \footinsv@r=\insert250
 \@mpfootinsv@r=\insert249
-\m@m@k=\count284
-\m@m@h=\dimen182
-\m@mipn@skip=\skip170
+\m@m@k=\count295
+\m@m@h=\dimen180
+\m@mipn@skip=\skip171
 \sidefootins=\insert248
-\sidefootadjust=\skip171
-\sidefootheight=\skip172
-\sidefoothsep=\skip173
-\sidefootvsep=\skip174
-\sidefootwidth=\skip175
-\m@mdownsf=\skip176
-\c@sidefootnote=\count285
-\sidefootmarkwidth=\skip177
-\sidefootmarksep=\skip178
-\sidefootparindent=\skip179
-\c@pagenote=\count286
-\c@pagenoteshadow=\count287
-\mem@pn@lastkern=\skip180
-\every@verbatim=\toks21
-\afterevery@verbatim=\toks22
-\verbatim@line=\toks23
-\tab@position=\count288
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count296
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count297
+\c@pagenoteshadow=\count298
+\mem@pn@lastkern=\skip181
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2024-01-22 v1.5x LaTeX2e package for verbatim enhancements
+\every@verbatim=\toks23
+\verbatim@line=\toks24
 \verbatim@in@stream=\read2
-\verbatimindent=\skip181
+)
+\verbatimindent=\skip182
 \verbatim@out=\write3
-\bvboxsep=\skip182
-\c@memfbvline=\count289
-\c@bvlinectr=\count290
-\bvnumlength=\skip183
-\fb@frw=\dimen183
-\fb@frh=\dimen184
-\FrameRule=\dimen185
-\FrameSep=\dimen186
-\c@cp@cntr=\count291
-\c@ism@mctr=\count292
-\c@xsm@mctr=\count293
-\c@csm@mctr=\count294
-\c@ksm@mctr=\count295
-\c@xksm@mctr=\count296
-\c@cksm@mctr=\count297
-\c@msm@mctr=\count298
-\c@xmsm@mctr=\count299
-\c@cmsm@mctr=\count300
-\c@bsm@mctr=\count301
-\c@workm@mctr=\count302
-\c@sheetsequence=\count303
-\c@lastsheet=\count304
-\c@lastpage=\count305
- (/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
-Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/shortvrb.sty
+Package: shortvrb 2024/10/23 v3.0q Standard LaTeX documentation package V3 (FMi
+)
+)
+\bvboxsep=\skip183
+\c@memfbvline=\count299
+\c@bvlinectr=\count300
+\bvnumlength=\skip184
+\fb@frw=\dimen181
+\fb@frh=\dimen182
+\FrameRule=\dimen183
+\FrameSep=\dimen184
+\c@cp@cntr=\count301
+\c@ism@mctr=\count302
+\c@xsm@mctr=\count303
+\c@csm@mctr=\count304
+\c@ksm@mctr=\count305
+\c@xksm@mctr=\count306
+\c@cksm@mctr=\count307
+\c@msm@mctr=\count308
+\c@xmsm@mctr=\count309
+\c@cmsm@mctr=\count310
+\c@bsm@mctr=\count311
+\c@workm@mctr=\count312
+\c@sheetsequence=\count313
+\c@lastsheet=\count314
+\c@lastpage=\count315
+
+(/usr/share/texlive/texmf-dist/tex/latex/textcase/textcase.sty
+Package: textcase 2025/02/16 v1.05 Text only upper/lower case changing (DPC)
 Package textcase Info: Defining Legacy names on input line 20.
 )
-\c@figure=\count306
-\c@lofdepth=\count307
-\cftbeforefigureskip=\skip184
-\cftfigureindent=\skip185
-\cftfigurenumwidth=\skip186
-\c@table=\count308
-\c@lotdepth=\count309
-\cftbeforetableskip=\skip187
-\cfttableindent=\skip188
-\cfttablenumwidth=\skip189
+\c@figure=\count316
+\c@lofdepth=\count317
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count318
+\c@lotdepth=\count319
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
 Package abstract [2008/07/23] emulated by memoir.
 Package appendix [2008/07/23] emulated by memoir.
-Package booktabs [2016/05/16] emulated by memoir.
 Package ccaption [2008/07/23] emulated by memoir.
 Package changepage [2008/07/23] emulated by memoir.
 Package chngcntr [2008/07/23] emulated by memoir.
@@ -321,158 +416,270 @@ Package pagenote [2008/07/23] emulated by memoir.
 Package parskip [2008/07/23] emulated by memoir.
 Package patchcmd [2008/07/23] emulated by memoir.
 Package setspace [2008/07/23] emulated by memoir.
-Package shortvrb [2008/07/23] emulated by memoir.
 Package showidx [2008/07/23] emulated by memoir.
 Package titleref [2008/07/23] emulated by memoir.
 Package titling [2008/07/23] emulated by memoir.
 Package tocbibind [2008/07/23] emulated by memoir.
 Package tocloft [2008/07/23] emulated by memoir.
 Package tocvsec2 [2008/07/23] emulated by memoir.
-Package verbatim [2008/07/23] emulated by memoir.
 Package verse [2008/07/23] emulated by memoir.
-) (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
-Package: babel 2022/12/26 3.84 The Babel package
-\babel@savecnt=\count310
-\U@D=\dimen187
-\l@unhyphenated=\language36
- (/usr/share/texlive/texmf-dist/tex/generic/babel/txtbabel.def)
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2025/02/14 v25.4 The multilingual framework for pdfLaTeX, LuaLaT
+eX and XeLaTeX
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
 \bbl@readstream=\read3
-\bbl@dirlevel=\count311
- (/usr/share/texlive/texmf-dist/tex/generic/babel-esperanto/esperanto.ldf
+\l@dumylang=\language2
+Package babel Info: Non-standard hyphenation setup on input line 118.
+\l@nohyphenation=\language3
+\l@esperanto=\language4
+\l@ibycus=\language5
+\l@pali=\language6
+\l@telugu=\language7
+\l@kannada=\language8
+\l@ukenglish=\language9
+\l@afrikaans=\language10
+\l@sanskrit=\language11
+\l@greek=\language12
+\l@ethiopic=\language13
+\l@interlingua=\language14
+\l@panjabi=\language15
+\l@georgian=\language16
+\l@malayalam=\language17
+\l@oriya=\language18
+\l@arabic=\language19
+\l@basque=\language20
+\l@bengali=\language21
+\l@ancientgreek=\language22
+\l@hindi=\language23
+\l@armenian=\language24
+\l@assamese=\language25
+\l@hebrew=\language26
+\l@french=\language27
+\l@farsi=\language28
+\l@tamil=\language29
+\l@gujarati=\language30
+\l@vietnamese=\language31
+\l@turkmen=\language32
+\l@indonesian=\language33
+\l@marathi=\language34
+\l@coptic=\language35
+\l@usenglishmax=\language36
+\l@monogreek=\language37
+\l@thai=\language38
+\babelcatcodetablenum=\catcodetable14
+\bbl@pattcodes=\catcodetable15
+)
+\babel@savecnt=\count320
+\U@D=\dimen185
+\l@unhyphenated=\language39
+
+(/usr/share/texlive/texmf-dist/tex/generic/babel/luababel.def
+\bbl@attr@locale=\attribute4
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-esperanto/esperanto.ldf
 Language: esperanto 2007/10/20 v1.4t Esperanto support from the babel system
 Package babel Info: Making ^ an active character on input line 80.
-)) (/usr/share/texlive/texmf-dist/tex/generic/babel/locale/eo/babel-esperanto.tex
+
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/loadhyph/loadhyph-eo.tex
+UTF-8 Esperanto hyphenation patterns
+(/usr/share/texlive/texmf-dist/tex/generic/hyph-utf8/patterns/tex/hyph-eo.tex)))
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel/locale/eo/babel-esperanto.tex
 Package babel Info: Importing font and identification data for esperanto
 (babel)             from babel-eo.ini. Reported on input line 11.
 ) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks24
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
- (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
-Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
-) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 107.
- (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
-File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
+Package graphics Info: Driver file: luatex.def on input line 106.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/luatex.def
+File: luatex.def 2024/04/13 v1.2e Graphics/color driver for luatex
 ))
-\Gin@req@height=\dimen188
-\Gin@req@width=\dimen189
-) (/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+\Gin@req@height=\dimen186
+\Gin@req@width=\dimen187
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
- (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
+
+(/usr/share/texlive/texmf-dist/tex/generic/iftex/ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count312
-\Gm@cntv=\count313
-\c@Gm@tempcnt=\count314
-\Gm@bindingoffset=\dimen190
-\Gm@wd@mp=\dimen191
-\Gm@odd@mp=\dimen192
-\Gm@even@mp=\dimen193
-\Gm@layoutwidth=\dimen194
-\Gm@layoutheight=\dimen195
-\Gm@layouthoffset=\dimen196
-\Gm@layoutvoffset=\dimen197
+\Gm@cnth=\count321
+\Gm@cntv=\count322
+\c@Gm@tempcnt=\count323
+\Gm@bindingoffset=\dimen188
+\Gm@wd@mp=\dimen189
+\Gm@odd@mp=\dimen190
+\Gm@even@mp=\dimen191
+\Gm@layoutwidth=\dimen192
+\Gm@layoutheight=\dimen193
+\Gm@layouthoffset=\dimen194
+\Gm@layoutvoffset=\dimen195
 \Gm@dimlist=\toks25
-) (/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip190
-\f@nch@O@elh=\skip191
-\f@nch@O@erh=\skip192
-\f@nch@O@olh=\skip193
-\f@nch@O@orh=\skip194
-\f@nch@O@elf=\skip195
-\f@nch@O@erf=\skip196
-\f@nch@O@olf=\skip197
-\f@nch@O@orf=\skip198
-) (/usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
-Package: parallel 2003/04/13, setting two texts parallel (me)
- `parallel': setting two texts parallel, (beta 4) 2003/04/13.
-\ParallelLWidth=\dimen198
-\ParallelRWidth=\dimen199
-\ParallelTextWidth=\dimen256
-\ParallelLeftMargin=\dimen257
-\ParallelUserMidSkip=\dimen258
-\ParallelMainMidSkip=\dimen259
-\ParallelLBox=\box56
-\ParallelRBox=\box57
-\ParallelBoxVar=\box58
-\ParallelLTok=\box59
-\ParallelRTok=\box60
-\ParallelBoolVar=\count315
-\ParallelBoolMid=\count316
-\ParallelWhichBox=\count317
-\ParallelMainMode=\count318
-\ParallelFNMode=\count319
-\ParallelLFNCounter=\count320
-\ParallelRFNCounter=\count321
-\ParallelMaxFN=\count322
-\ParallelFNNumMode=\count323
-) (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
-Package: enumitem 2019/06/20 v3.9 Customized lists
-\labelindent=\skip199
-\enit@outerparindent=\dimen260
-\enit@toks=\toks26
-\enit@inbox=\box61
-\enit@count@id=\count324
-\enitdp@description=\count325
 )
-\hh=\count326
-\mm=\count327
-\anarkiismo@idxfile=\write4
-\openout4 = `anarkiismo.idx'.
 
+Class memoir Warning: The fancyhdr package is not recommended with memoir.
+(memoir)              We have our own well integrated interface to handle
+(memoir)              headers and footers. See the manual section 7.3
+(memoir)              onwards for details. on input line 10.
+
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2025/02/07 v5.2 Extensive control of page headers and footers
+
+\f@nch@headwidth=\skip191
+\f@nch@offset@elh=\skip192
+\f@nch@offset@erh=\skip193
+\f@nch@offset@olh=\skip194
+\f@nch@offset@orh=\skip195
+\f@nch@offset@elf=\skip196
+\f@nch@offset@erf=\skip197
+\f@nch@offset@olf=\skip198
+\f@nch@offset@orf=\skip199
+\f@nch@height=\skip256
+\f@nch@footalignment=\skip257
+\f@nch@widthL=\skip258
+\f@nch@widthC=\skip259
+\f@nch@widthR=\skip260
+\@temptokenb=\toks26
+)
+(/usr/share/texlive/texmf-dist/tex/latex/parallel/parallel.sty
+Package: parallel 2003/04/13, setting two texts parallel (me)
+
+`parallel': setting two texts parallel, (beta 4) 2003/04/13.
+\ParallelLWidth=\dimen196
+\ParallelRWidth=\dimen197
+\ParallelTextWidth=\dimen198
+\ParallelLeftMargin=\dimen199
+\ParallelUserMidSkip=\dimen256
+\ParallelMainMidSkip=\dimen257
+\ParallelLBox=\box58
+\ParallelRBox=\box59
+\ParallelBoxVar=\box60
+\ParallelLTok=\box61
+\ParallelRTok=\box62
+\ParallelBoolVar=\count324
+\ParallelBoolMid=\count325
+\ParallelWhichBox=\count326
+\ParallelMainMode=\count327
+\ParallelFNMode=\count328
+\ParallelLFNCounter=\count329
+\ParallelRFNCounter=\count330
+\ParallelMaxFN=\count331
+\ParallelFNNumMode=\count332
+)
+(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2025/02/06 v3.11 Customized lists
+\labelindent=\skip261
+\enit@outerparindent=\dimen258
+\enit@toks=\toks27
+\enit@inbox=\box63
+\enit@count@id=\count333
+\enitdp@description=\count334
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.sty
+File: lettrine.sty 2025-01-30 v2.80 (Daniel Flipo)
+
+(/usr/share/texlive/texmf-dist/tex/latex/l3packages/xfp/xfp.sty
+Package: xfp 2024-08-16 L3 Floating point unit
+)
+\c@DefaultLines=\count335
+\c@DefaultDepth=\count336
+\DefaultFindent=\dimen259
+\DefaultNindent=\dimen260
+\DefaultSlope=\dimen261
+\DiscardVskip=\dimen262
+\L@lettrine=\box64
+\L@lbox=\box65
+\L@tbox=\box66
+\c@L@lines=\count337
+\c@L@depth=\count338
+\L@Pindent=\dimen263
+\L@Findent=\dimen264
+\L@Nindent=\dimen265
+\L@lraise=\dimen266
+\L@first=\dimen267
+\L@next=\dimen268
+\L@slope=\dimen269
+\L@height=\dimen270
+\L@novskip=\dimen271
+\L@target@ht=\dimen272
+\L@target@dp=\dimen273
+\L@target@tht=\dimen274
+\LettrineWidth=\dimen275
+\LettrineHeight=\dimen276
+\LettrineDepth=\dimen277
+\L@finalht=\dimen278
+\L@finaldp=\dimen279
+
+Loading lettrine.cfg
+(/usr/share/texlive/texmf-dist/tex/latex/lettrine/lettrine.cfg)
+\Lettrine@tweaks=\toks28
+\Llist@everypar=\toks29
+)
+\hh=\count339
+\mm=\count340
+\anarkiismo@idxfile=\write4
+
+\openout4 = anarkiismo.idx
 
 Writing index file anarkiismo.idx 
-(/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
-File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count328
-\l__pdf_internal_box=\box62
-) (./anarkiismo.aux)
-\openout1 = `anarkiismo.aux'.
+(./anarkiismo.aux)
+\openout1 = anarkiismo.aux
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 99.
-LaTeX Font Info:    ... okay on input line 99.
- (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count329
-\scratchdimen=\dimen261
-\scratchbox=\box63
-\nofMPsegments=\count330
-\nofMParguments=\count331
-\everyMPshowfont=\toks27
-\MPscratchCnt=\count332
-\MPscratchDim=\dimen262
-\MPnumerator=\count333
-\makeMPintoPDFobject=\count334
-\everyMPtoPDFconversion=\toks28
+\scratchcounter=\count341
+\scratchdimen=\dimen280
+\scratchbox=\box67
+\nofMPsegments=\count342
+\nofMParguments=\count343
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count344
+\MPscratchDim=\dimen281
+\MPnumerator=\count345
+\makeMPintoPDFobject=\count346
+\everyMPtoPDFconversion=\toks31
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
 ))
 *geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
+*geometry* detected driver: luatex
 *geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
+* driver: luatex
 * paper: a5paper
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -485,11 +692,11 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \textheight=483.69687pt
 * \oddsidemargin=-15.36449pt
 * \evensidemargin=-15.36449pt
-* \topmargin=-48.83829pt
-* \headheight=13.6pt
+* \topmargin=-49.73828pt
+* \headheight=14.5pt
 * \headsep=19.8738pt
-* \topskip=11.0pt
-* \footskip=27.46295pt
+* \topskip=12.0pt
+* \footskip=30.0pt
 * \marginparwidth=7.0pt
 * \marginparsep=7.0pt
 * \columnsep=10.0pt
@@ -503,409 +710,139 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 102.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 102.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 102.
+
+
 [1
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./01-origino.tex [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] (./01-origino.tex
+Package lettrine.sty Info: Targeted height = 20.668pt
+(lettrine.sty)             (for loversize=0, accent excluded),
+(lettrine.sty)             Lettrine height = 21.15213pt (S);
+(lettrine.sty)             reported on input line 7.
 
+Underfull \hbox (badness 10000) in paragraph at lines 7--8
 
-]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[3]
-Overfull \hbox (3.41692pt too wide) in paragraph at lines 11--12
-[]\OT1/cmr/m/n/10.95 Sed anka^^Ru la ku-tim-juro, la po-po-laj tra-di-cioj su-fe-ras mal-novi^gon,
  []
 
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 9--10
 
-[4]
+ []
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
 
-[5]
+Underfull \hbox (badness 10000) in paragraph at lines 11--12
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--15
+
+ []
+
+
+
+[2
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--19
+
+ []
+
+
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 20--21
 
  []
 
-) (./02-libereco.tex
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
 
-[6] [7
-
-]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[8]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[9]) (./03-solidareco.tex
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <9> on input line 3.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 3.
-
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[10]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[11]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[12]) (./04-egaleco.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[13]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[14]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[15]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[16]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[17]) (./05-justeco.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[18]
-Overfull \hbox (2.47392pt too wide) in paragraph at lines 6--7
-[][]\OT1/cmr/m/n/10.95 Ce Pru-dono[] ne es-tas verko, en kiu ju-s-t-eco ne pre-zen-tas ^ceftemon
  []
 
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
 
-[19]
+[4
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
+]
+Underfull \hbox (badness 10000) in paragraph at lines 24--25
 
-[20]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[21]) (./06-libera-iniciativo.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[22]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[23]) (./07-libera-kontrakto.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[24]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[25]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[26]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[27]) (./08-federismo.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[28]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[29]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[30]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[31]
-Overfull \hbox (1.6527pt too wide) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/10.95 Federismo tro-vis ian apli-kon mal-gra^^Uu granda mis-pre-zenta formo
- []
-
-) (./09-senestreco.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[32]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[33]
-Overfull \hbox (10.56482pt too wide) in paragraph at lines 16--17
-[][]\OT1/cmr/m/n/10.95 Ciuokaze la ter-mino sen-e-str-eco krei^gis el la ne-ado de la a^^Uutoritato,
  []
 
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
+Underfull \hbox (badness 10000) in paragraph at lines 26--27
 
-[34]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[35]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[36]) (./10-ateismo.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[37]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[38]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[39]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[40]) (./11-internaciismo.tex
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[41]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[42]
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[43])
-
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[44] (./anarkiismo.ind [45
+ []
 
 
+Underfull \hbox (badness 10000) in paragraph at lines 28--29
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 30--31
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 32--33
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 34--35
+
+ []
+
+
+
+[5
 
 ]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
-Package fancyhdr Warning: \headheight is too small (13.6pt): 
-(fancyhdr)                Make it at least 14.4521pt, for example:
-(fancyhdr)                \setlength{\headheight}{14.4521pt}.
-(fancyhdr)                You might also make \topmargin smaller to compensate:
-(fancyhdr)                \addtolength{\topmargin}{-0.8521pt}.
-
-[46
-
-]) (./anarkiismo.toc) [47
+ []
 
 
-]
-\tf@toc=\write5
-\openout5 = `anarkiismo.toc'.
+Underfull \hbox (badness 10000) in paragraph at lines 38--39
 
- (./anarkiismo.aux) ) 
-Here is how much of TeX's memory you used:
- 7300 strings out of 477393
- 112026 string characters out of 5826324
- 1865330 words of memory out of 5000000
- 27533 multiletter control sequences out of 15000+600000
- 519756 words of font info for 56 fonts, out of 8000000 for 9000
- 331 hyphenation exceptions out of 8191
- 59i,13n,81p,3358b,316s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti9.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1095.pfb>
-Output written on anarkiismo.pdf (47 pages, 272222 bytes).
-PDF statistics:
- 228 PDF objects out of 1000 (max. 8388607)
- 149 compressed objects within 2 object streams
- 0 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ []
+
+)
+
+[6]
+
+[7] (./anarkiismo.aux)
+ ***********
+LaTeX2e <2024-11-01> patch level 2
+L3 programming layer <2020/03/25>
+ ***********
+)
+
+Here is how much of LuaTeX's memory you used:
+ 8802 strings out of 475512
+ 125061,794899 words of node,token memory allocated
+ 1207 words of node memory still in use:
+   6 hlist, 1 vlist, 1 rule, 7 glue, 3 kern, 5 glyph, 17 attribute, 182 glue_spe
+c, 10 attribute_list, 2 write nodes
+   avail lists: 1:1,2:261,3:90,4:28,5:310,6:23,7:4800,9:188,10:20,11:560
+ 31666 multiletter control sequences out of 65536+600000
+ 25 fonts using 2039255 bytes
+ 85i,11n,89p,1066b,336s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/opentype/public/lm/lmromancaps10-regular.otf></usr/share
+/texmf/fonts/opentype/public/lm/lmroman12-regular.otf></usr/share/texmf/fonts/op
+entype/public/lm/lmroman12-italic.otf></usr/share/texmf/fonts/opentype/public/lm
+/lmroman17-regular.otf></usr/share/texmf/fonts/opentype/public/lm/lmroman12-bold
+.otf>
+Output written on anarkiismo.pdf (7 pages, 30075 bytes).
+
+PDF statistics: 61 PDF objects out of 1000 (max. 8388607)
+ 36 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 131072)
+ 1 words of extra memory for PDF output out of 10000 (max. 100000000)
 

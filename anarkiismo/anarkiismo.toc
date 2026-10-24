@@ -1,15 +1,3 @@
 \babel@toc {esperanto}{}\relax 
-\contentsline {chapter}{\chapternumberline {1}Origino}{2}{}%
-\contentsline {chapter}{\chapternumberline {2}Senestrecaj principoj}{7}{}%
-\contentsline {section}{Libereco}{7}{}%
-\contentsline {section}{Solidareco}{11}{}%
-\contentsline {section}{Egaleco}{14}{}%
-\contentsline {section}{Justeco}{18}{}%
-\contentsline {section}{Libera iniciativo}{22}{}%
-\contentsline {section}{Libera kontrakto}{25}{}%
-\contentsline {section}{Federismo}{28}{}%
-\contentsline {section}{Senestreco}{33}{}%
-\contentsline {section}{Ateismo}{37}{}%
-\contentsline {section}{Internaciismo}{42}{}%
-\contentsline {chapter}{Indekso}{45}{}%
-\contentsline {chapter}{Enhavo}{47}{}%
+\contentsline {chapter}{Indekso}{9}{}%
+\contentsline {chapter}{Enhavo}{10}{}%
